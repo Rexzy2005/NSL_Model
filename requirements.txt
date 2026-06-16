@@ -1,0 +1,7 @@
+mediapipe
+opencv-python
+numpy
+scipy
+scikit-learn
+yt-dlp
+Pillow
