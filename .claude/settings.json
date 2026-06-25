@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(echo \"---exit: $?\")"
+      "Bash(echo \"---exit: $?\")",
+      "Bash(curl -sI \"https://aosbjpbtdnwmozopuqgv.supabase.co/storage/v1/object/public/models/nsl_model_fp16.tflite\")",
+      "Bash(curl -s \"https://aosbjpbtdnwmozopuqgv.supabase.co/storage/v1/object/public/models/version.json\")",
+      "PowerShell(keytool -list -v -keystore $env:USERPROFILE\\\\.android\\\\debug.keystore -alias androiddebugkey -storepass android 2>&1 | Select-String -Pattern \"SHA1|SHA-1|Alias|Owner|Valid\")",
+      "PowerShell(& \"C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr\\\\bin\\\\keytool.exe\" -list -v -keystore \"$env:USERPROFILE\\\\.android\\\\debug.keystore\" -alias androiddebugkey -storepass android 2>&1 | Select-String -Pattern \"SHA1|SHA-1:|Alias name|Owner|Valid\")",
+      "Bash(C:/flutter/bin/flutter.bat analyze *)",
+      "Bash(Select-Object -Last 40)",
+      "Bash(C:/flutter/bin/flutter.bat test *)",
+      "Bash(/c/flutter/bin/flutter.bat analyze *)",
+      "Bash(/c/flutter/bin/flutter.bat test *)"
     ]
   }
 }

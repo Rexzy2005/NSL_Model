@@ -15,3 +15,17 @@ python data_collection/augment.py
 
 # 6. Stack into X.npy / y.npy and split into train/val/test
 python data_collection/build_dataset.py
+
+
+android: 527745842570-i8u61c1ehtct9bion3gcd55rshsqnldv.apps.googleusercontent.com
+
+web: 527745842570-g7gsms10aaksoakfsbtduvdph1hf82ua.apps.googleusercontent.com
+
+Now i have gotten my: Project url: https://aosbjpbtdnwmozopuqgv.supabase.co, my publishabe url: sb_publishable_tGxsQgC30bKKCt2wHJM22g_Tz1Hh7iX, postgresql://postgres:NSL_Translator%402026@db.aosbjpbtdnwmozopuqgv.supabase.co:5432/postgres
+
+C:\flutter\bin\flutter.bat run `
+  --dart-define=SUPABASE_URL=https://aosbjpbtdnwmozopuqgv.supabase.co `
+  --dart-define=SUPABASE_PUBLISHABLE_KEY=sb_publishable_tGxsQgC30bKKCt2wHJM22g_Tz1Hh7iX
+
+
+
